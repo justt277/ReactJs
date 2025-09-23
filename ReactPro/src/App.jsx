@@ -1,12 +1,11 @@
 import React from 'react'
 import Greetings from './greetings'
-import './assets/greetings.css'
-import MyForm from './assets/MyForm'
+import  './assets/form.css'
+import Form from './assets/form'
 const App = () => {
   return (
     <div>
-      <Greetings/>
-      <MyForm/>
+      <Form/>
     </div>
   )
 }
