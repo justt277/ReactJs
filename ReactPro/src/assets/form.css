@@ -16,6 +16,8 @@ form{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
+    position: relative;
 
 }
 
@@ -25,7 +27,9 @@ legend{
     transform: translate(50px);
     margin-bottom: 10px;
     font-weight: bold;
-    animation: floatlegend 3s ease-in-out infinite;
+    animation: floatlegend 10s ease-in-out infinite;
+    text-shadow: 0 8px 16px rgba(0,0,0,0.2); /* Add this line */
+    text-align: center;
 
 }
 @keyframes floatlegend {
@@ -34,6 +38,9 @@ legend{
     }
     50% {
         transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
     }
 }
 label{
@@ -54,4 +61,7 @@ button{
     border-radius: 5px;
     cursor: pointer;
     width: 80px;
+}
+body{
+    background-color: antiquewhite;
 }
