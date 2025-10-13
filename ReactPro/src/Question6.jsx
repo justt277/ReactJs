@@ -10,6 +10,7 @@ export default function Question6() {
       placeholder="Enter Text"
       value={text}
       onChange={(e) =>setText(e.target.value)} 
+      className="form-control w-50 m-auto mb-3"
       />
       <p>Text: {text}</p>
         </div>
