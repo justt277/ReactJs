@@ -1,5 +1,6 @@
 import React from 'react'
 import Greetings from './greetings'
+import Fsubmit from './Fsubmit'
 import  './assets/form.css'
 import Question4 from './Question4'
 import Car from './car'
@@ -11,6 +12,7 @@ import Form from './assets/form'
 const App = () => {
   return (
     <div>
+      <Fsubmit />
        <Football/>
       <Form/>
       <Comp student_name="Peter" email="Peter@gmail.com" age="20" address="India" course="MERN"/>
