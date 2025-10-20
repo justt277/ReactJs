@@ -9,9 +9,11 @@ import Question5 from './Question5'
 import Question6 from './Question6'
 import Comp from './Question1'
 import Form from './assets/form'
+import UseColor from './useColor'
 const App = () => {
   return (
     <div>
+      <UseColor/>
       <Fsubmit />
        <Football/>
       <Form/>
